@@ -1,5 +1,3 @@
-sudo usermod -aG docker ${USER}
-su - ${USER}
 FROM python:3.8-alpine3.17
 WORKDIR /app
 COPY requirements.txt /app
